@@ -11,31 +11,11 @@
 }
 body{
     background: linear-gradient(to right top, #e81cff, #cb3aff, #ac4aff, #8b54ff, #665bff, #4570ff, #2181ff, #008fff, #00abff, #00c4ff, #00daff, #60efff);
-}
-.icon{
-  width: 60px;
-  float: left;
-  height: 40px;
-  font-family:Whyte Inktrap;
-  margin-left: 12px;
-}
-.icon h2,a{
-  font-family:Whyte Inktrap;
-  margin-bottom:30px;
-  margin-top:2px;
-  text-decoration: none;
-}
-a:link{
-  color: black;
-}
-a:visited{
-  color: black;
-}
-a:hover{
-  color:black;
-}
-a:active{
-  color: black;
+        margin-left: 300px;
+        margin-right: 300px;
+        border:1.5px white;
+        border-style: solid;
+        border-radius:16px;
 }
 
 .content{
@@ -49,6 +29,7 @@ a:active{
     font-size: 17px;
     color: #000;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .main{
@@ -61,17 +42,9 @@ a:active{
         border-style: solid;
         border-radius:16px;
         opacity: 0.8;
-        margin-left: 300px;
-        margin-right: 300px;
-        border:1.5px white;
-        border-style: solid;
-        border-radius:16px;
 }
 .main h1{
     font-family:Whyte Inktrap;
     font-size: 40px;
     text-align: center;
-}
-.modal-footer{
-  text-align: center;
 }

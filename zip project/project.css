@@ -8,6 +8,15 @@ body{
     font-family:Whyte Inktrap;
     margin-left: 12px;
 }
+.main{
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: #fff;
+    border:1.5px white;
+    border-style: solid;
+    border-radius:16px;
+    opacity: 0.8;
+}
 .icon h2,a{
     font-family:Whyte Inktrap;
     margin-bottom:30px;
@@ -26,19 +35,6 @@ a:hover{
 a:active{
     color: black;
 }
-.main{
-    margin-left: 400px;
-    margin-right: 400px;
-    background-color: #fff;
-    border:1.5px rgba(255,255,255,.2);
-    border-style: solid;
-    border-radius:16px;
-    opacity: 0.8;
-    background: transparent;
-    backdrop-filter: blur(80px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
 #h1{
         font-family:Whyte Inktrap;
         font-weight:normal;
@@ -59,18 +55,14 @@ a:active{
     }
 #h4{
     font-style: italic;
-    color: #fff;
-}
-#h4 a{
-    color: #fff;
 }
 .form{
     padding:10px;
     font-weight: bold;
 }
 .button img{
-    width:50px;
-    height:40px;
+    width:80px;
+    height:60px;
 }
 .ico img{
     width:450px;
@@ -84,30 +76,4 @@ a:active{
 }
 .form input{
     display: inline-block;
-}
-.inputbox input,button{
-    background: transparent;
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255,255,255,.2);
-    border-radius: 40px;
-    padding: 10px 35px 10px 10px;
-    width:100%;
-}
-.inputbox input::placeholder{
-    color: #fff;
-}
-.inputbox i{
-    color: #fff;
-    position: absolute;
-    right: 20px;
-    transform: translateY(-50%);
-    font-size: 20px;
-    margin-top: 20px;
-}
-.inputbox button{
-    background: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    width:100%;
 }
